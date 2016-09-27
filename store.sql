@@ -53,18 +53,20 @@ INSERT INTO `blog` (`id`, `title`, `blog`, `status`, `user_id`, `date_created`) 
 CREATE TABLE IF NOT EXISTS `category` (
 `id` int(11) NOT NULL,
   `name` varchar(20) NOT NULL,
-  `order` int(11) NOT NULL DEFAULT '0'
+  `order` int(11) NOT NULL DEFAULT '0',
+  `padre` int(11) DEFAULT '0'
+
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `category`
 --
 
-INSERT INTO `category` (`id`, `name`, `order`) VALUES
-(1, 'Washing Machines', 4),
-(2, 'Tumble Dryers', 5),
-(3, 'Televisions', 2),
-(5, 'Laptops', 0);
+INSERT INTO `category` (`id`, `name`, `order`, `padre`) VALUES
+(1, 'Washing Machines', 4, 0),
+(2, 'Tumble Dryers', 5, 0),
+(3, 'Televisions', 2, 0),
+(5, 'Laptops', 0, 0);
 
 -- --------------------------------------------------------
 

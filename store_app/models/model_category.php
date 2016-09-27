@@ -16,7 +16,8 @@ class model_category extends CI_Model{
     function addCategory($name, $order = 0){
         $data = array(
             'name' => $name,
-            'order' => $order
+            'order' => $order,
+            'padre' => $padre
             );
         
         $this->db->insert('category', $data);
@@ -27,10 +28,11 @@ class model_category extends CI_Model{
         $this->db->delete('category', array('id' => $id));
     }
     
-    function updateCategory($id, $name, $order = 0){
+    function updateCategory($id, $name, $order = 0, $padre){
         $data = array(
             'name' => $name,
-            'order' => $order
+            'order' => $order,
+            'padre' => $padre
             );
         
             $this->db->update('category', $data, array('id' => $id));

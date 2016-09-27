@@ -30,6 +30,7 @@ class category extends My_Controller{
         
         $count = 1;
         foreach($categories->result() as $category){
+            $this->form_validation->set_rules("categorypadre$count", "Category $count Padre", 'required|integer');
             $this->form_validation->set_rules("categoryname$count", "Category $count Name", 'required|max_length[20]');
             $this->form_validation->set_rules("categoryorder$count", "Category $count Order", 'required|integer');
             $this->form_validation->set_rules("categoryid$count", "Category $count ID", 'required|integer');
@@ -42,11 +43,12 @@ class category extends My_Controller{
         }else{
             $count = 1;
             foreach($categories->result() as $category){
+                $padre = $this->input->post("categorypadre$count");
                 $name = $this->input->post("categoryname$count");
                 $order = $this->input->post("categoryorder$count");
                 $id = $this->input->post("categoryid$count");
                 
-                $this->model_category->updateCategory($id, $name, $order);
+                $this->model_category->updateCategory($id, $name, $order, $padre);
                 $count++;
             }
             redirect(admin_url('category'), 'refresh');
