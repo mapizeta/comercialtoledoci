@@ -18,12 +18,30 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {
     "museconfig.js", 
     "jquery.musepolyfill.bgsize.js", 
     "jquery.watch.js", 
-    "webpro.js", 
+    "webpro.js",
     "require.js", 
     "index.css"], 
     "outOfDate":[]};
 </script>
-  
+
+<!--
+<script type="text/javascript" src="<?php echo asset_url('bootstrap-submenu/js/bootstrap-submenu.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo asset_url('bootstrap-submenu/dist/js/bootstrap-submenu.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo asset_url('bootstrap-submenu/dist/js/bootstrap-submenu.js'); ?>"></script>
+
+<link rel="stylesheet" type="text/css" href="<?php echo asset_url('bootstrap-submenu/dist/css/bootstrap-submenu.css.map'); ?>"/>
+
+-->
+<link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/bootstrap.css'); ?>"/>
+<link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/bootstrap.min.css'); ?>"/>
+
+    <!-- jQuery -->
+    <script src="<?php echo asset_url('js/jquery.js'); ?>"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="<?php echo asset_url('js/bootstrap.min.js'); ?>" ></script>
+
+
   <title>Inicio</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/site_global.css?crc=209640693'); ?>"/>
@@ -37,6 +55,80 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {
   <script type="text/javascript">
    try {Typekit.load();} catch(e) {}
 </script>
+
+
+
+
+
+
+ <style type="text/css">
+    ul { list-style: none }
+@media (min-width: 768px)
+.container {
+    width: 0px!important
+}
+    .navbar-default .navbar-brand {
+    color: #f7f5f3!important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #f7f5f3!important;
+}
+.footer a {
+    color: #ffffff!important;
+}
+.footer ul {
+    font-size: 13px;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 15px;
+    color: #ffffff!important;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color: #cb5610!important;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: rgba(125, 48, 2, 0.55)!important;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc!important;
+    border: 1px solid rgba(0,0,0,.15)!important;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175)!important;
+    box-shadow: 0 6px 12px rgba(0,0,0,.175)!important;
+}
+
+#u142_align_to_page {
+    margin-left: 0!important;
+    margin-right: auto;
+    position: relative;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 9px!important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+    </style>
+
+
+
+
+
    </head>
  <body>
 
@@ -71,13 +163,52 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {
      </div>
     </div>
     <div class="browser_width colelem" id="u142-bw">
+
      <div id="u142"><!-- group -->
+
       <div class="clearfix" id="u142_align_to_page">
-       <a class="nonblock nontext transition grpelem" id="u617" href="http://#"><!-- simple frame --></a>
-       <div class="pointer_cursor clearfix grpelem" id="u1001-6"><!-- content -->
+      <!-- <a class="nonblock nontext transition grpelem" id="u617" href="http://#"></a>
+       <div class="pointer_cursor clearfix grpelem" id="u1001-6"><!-- content 
         <a class="block" href="http://#"></a>
         <h4 id="u1001-4"><span><a class="nonblock" href="http://#"><span class="h4" id="u1001">Menú de Categorías</span></a></span></h4>
-       </div>
+       </div> -->
+
+
+
+
+<!--PROTOTIPO MENÚ-->
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+           <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+                <ul class="nav navbar-nav " style="
+   
+    padding-top: 10px;
+">   
+                <li class="dropdown open" style="
+    margin-left: 29%;
+        width: 100%;
+">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"style=" font-family: 'Roboto Condensed';font-size: 24px;background-color: #833301;"><i class=" fa fa-bars"></i> Menú de Categorías<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#"><img src="<?php echo asset_url('images/revestimiento_poster_.png'); ?>" style="
+    width: 49px;
+">  REVESTIMIENTO</a></li>
+                      <li><a href="#"><img src="<?php echo asset_url('images/banio_poster_.png'); ?>"> BAÑO</a></li>
+                      <li><a href="#"><img src="<?php echo asset_url('images/cortinas_poster_.png'); ?>" style="
+    width: 49px;
+"> CORTINAS</a></li>
+                      <li><a href="#"><img src="<?php echo asset_url('images/adhesivos_poster_.png'); ?>"> ADHESIVOS</a></li>
+                      
+                    </ul>
+
+               </li>
+                    
+                </ul>
+
+            <!--</div>-->
+            <!-- /.navbar-collapse -->
+
+<!-- FIN # PROTOTIPO MENÚ -->
        <a class="nonblock nontext transition museBGSize grpelem" id="u525" href="revestimientos.html"><!-- simple frame --></a>
        <a class="nonblock nontext transition museBGSize grpelem" id="u544" href="bano.html"><!-- simple frame --></a>
        <a class="nonblock nontext transition museBGSize grpelem" id="u547" href="cortinas.html"><!-- simple frame --></a>
