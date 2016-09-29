@@ -21,7 +21,9 @@ class product extends My_Controller{
     }
     
     function index(){
-        $this->single();
+       // $this->single();
+        $this->load->view('product/list');
+
     }
     
     function single($productId = null, $data = array()){
