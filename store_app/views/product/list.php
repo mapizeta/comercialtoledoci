@@ -16,12 +16,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   
   <title>Cerámicos1</title>
     <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/site_global.css?crc=209640693'); ?>"/>
-  <link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/master_inicio.css?crc=264776060'); ?>"/>
-  <link rel="stylesheet" type="text/css" href="<?php echo asset_url('css/index.css?crc=4171909443'); ?>" id="pagesheet"/>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//use.typekit.net/ik/OzmpYrsc4lPTenTsRd9pTUSIkm5PH3dYdrwYKTNNEA6fenMgf4cLX3JPH29uFQ6UFR8L5AZyZcw3wDj35eIUwcj3whJhjcwhZAmc5QsyZRiqwQb-VKG0jhNlZW4R-ABCieNCZAszOcFCOeFzdAmkjh8ydYszdemqdkoRdfUaiaS0jhNlZW4R-ABCieNCZAszOcFCJ6Zkdh4ziev7fbKWpsMMeMJ6MKG4f4FoIMMj2PMfH6qJ8WqbMg6VJMJ7fbK9psMMeM96MqGIQWmDZZMgRi7Gz69.js" type="text/javascript">\x3C/script>');
+
+    <link rel="stylesheet" type="text/css" href="<?php echo asset_url('css2/site_global.css?crc=209640693'); ?>"/>
+  <link rel="stylesheet" type="text/css" href="<?php echo asset_url('css2/master_subsecciones.css?crc=93295351'); ?>"/>
+  <link rel="stylesheet" type="text/css" href="<?php echo asset_url('css2/index.css?crc=110676030'); ?>" id="pagesheet"/>
+<script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//use.typekit.net/ik/Oozj8o9kwL-e1oCjOr925V7XFvOgDXISlA_7K1c1mcwfenMgf4cLX3JPH29uFQ6UFR8L5Q8RFRIUjRIhFAZyFRi8jcmyZe9DjRja5eIhjcJtwDj-VKG0jhNlZW4R-ABCieNCZAszOcFCOeFzdAmkjh8ydYszdemqdkoRdfUaiaS0jhNlZW4R-ABCieNCZAszOcFCJ6Zkdh4ziev7fbKWpsMMeMJ6MKG4f4FoIMMj2PMfH6qJ8WqbMg6VJMJ7fbK9psMMeM96MqGIQWmDZZMgoJ0kz39.js" type="text/javascript">\x3C/script>');
 </script>
 </script>
   <!-- Other scripts -->
@@ -55,7 +55,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        </div>
        <div class="clearfix grpelem shared_content" id="u13521" data-content-guid="u13521_content"><!-- group -->
         <div class="clip_frame grpelem" id="u13522"><!-- svg -->
-         <img class="svg temp_no_img_src" id="u13523" data-orig-src="<?php echo asset_url('images/revestimiento.svg?crc=4245013538'); ?>" width="42" height="42" alt="" data-mu-svgfallback="<?php echo asset_url('images/revestimiento_poster_.png?crc=4233917495'); ?>" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+         <img class="svg temp_no_img_src" id="u13523" data-orig-src="<?php echo asset_url('images2/revestimiento.svg?crc=4245013538'); ?>" width="42" height="42" alt="" data-mu-svgfallback="<?php echo asset_url('images2/revestimiento_poster_.png?crc=4233917495'); ?>" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
         </div>
         <div class="clearfix grpelem shared_content" id="u13524-4" data-content-guid="u13524-4_content"><!-- content -->
          <h5 id="u13524-2"><span class="h5" id="u13524">REVESTIMIENTOS</span></h5>
@@ -76,19 +76,19 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
     <div class="clearfix colelem" id="pu1837"><!-- group -->
      <div class="shadow clip_frame grpelem" id="u1837"><!-- image -->
-      <img class="block temp_no_img_src" id="u1837_img" data-orig-src="<?php echo asset_url('images/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u1837_img" data-orig-src="<?php echo asset_url('images2/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem" id="u1866"><!-- image -->
-      <img class="block temp_no_img_src" id="u1866_img" data-orig-src="<?php echo asset_url('images/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="" data-image-width="176" data-image-height="176" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u1866_img" data-orig-src="<?php echo asset_url('images2/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="" data-image-width="176" data-image-height="176" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem" id="u1885"><!-- image -->
-      <img class="block temp_no_img_src" id="u1885_img" data-orig-src="<?php echo asset_url('images/atenas%20marfil%2036x36.jpg?crc=147040897'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u1885_img" data-orig-src="<?php echo asset_url('images2/atenas%20marfil%2036x36.jpg?crc=147040897'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem" id="u1904"><!-- image -->
-      <img class="block temp_no_img_src" id="u1904_img" data-orig-src="<?php echo asset_url('images/atenas%20marfil%2036x36.jpg?crc=147040897'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u1904_img" data-orig-src="<?php echo asset_url('images2/atenas%20marfil%2036x36.jpg?crc=147040897'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem" id="u1920"><!-- image -->
-      <img class="block temp_no_img_src" id="u1920_img" data-orig-src="<?php echo asset_url('images/bacares%20arena%2036x36.jpg?crc=72811895'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u1920_img" data-orig-src="<?php echo asset_url('images2/bacares%20arena%2036x36.jpg?crc=72811895'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
     </div>
     <div class="clearfix colelem shared_content" id="pu1850-9" data-content-guid="pu1850-9_content"><!-- group -->
@@ -149,19 +149,19 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
     <div class="clearfix colelem" id="pu1947"><!-- group -->
      <div class="clip_frame grpelem" id="u1947"><!-- image -->
-      <img class="block temp_no_img_src" id="u1947_img" data-orig-src="<?php echo asset_url('images/cimenta%20ceniza%2045x45.jpg?crc=4246538463'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u1947_img" data-orig-src="<?php echo asset_url('images2/cimenta%20ceniza%2045x45.jpg?crc=4246538463'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem" id="u1952"><!-- image -->
-      <img class="block temp_no_img_src" id="u1952_img" data-orig-src="<?php echo asset_url('images/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" data-image-width="176" data-image-height="176" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u1952_img" data-orig-src="<?php echo asset_url('images2/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" data-image-width="176" data-image-height="176" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem" id="u2065"><!-- image -->
-      <img class="block temp_no_img_src" id="u2065_img" data-orig-src="<?php echo asset_url('images/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u2065_img" data-orig-src="<?php echo asset_url('images2/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem" id="u1962"><!-- image -->
-      <img class="block temp_no_img_src" id="u1962_img" data-orig-src="<?php echo asset_url('images/iberica%20grafito%2045x45.jpg?crc=431928625'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u1962_img" data-orig-src="<?php echo asset_url('images2/iberica%20grafito%2045x45.jpg?crc=431928625'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem" id="u1967"><!-- image -->
-      <img class="block temp_no_img_src" id="u1967_img" data-orig-src="<?php echo asset_url('images/iberica%20marfil%2045x45.jpg?crc=3821233646'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u1967_img" data-orig-src="<?php echo asset_url('images2/iberica%20marfil%2045x45.jpg?crc=3821233646'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
     </div>
     <div class="clearfix colelem shared_content" id="pu1949-9" data-content-guid="pu1949-9_content"><!-- group -->
@@ -222,19 +222,19 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
     <div class="clearfix colelem" id="pu2095"><!-- group -->
      <div class="clip_frame grpelem" id="u2095"><!-- image -->
-      <img class="block temp_no_img_src" id="u2095_img" data-orig-src="<?php echo asset_url('images/iberica%20oxido%2045x45.jpg?crc=3862632190'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u2095_img" data-orig-src="<?php echo asset_url('images2/iberica%20oxido%2045x45.jpg?crc=3862632190'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem" id="u2100"><!-- image -->
-      <img class="block temp_no_img_src" id="u2100_img" data-orig-src="<?php echo asset_url('images/mairena%20beige%2045x45.jpg?crc=274035483'); ?>" alt="" data-image-width="176" data-image-height="176" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u2100_img" data-orig-src="<?php echo asset_url('images2/mairena%20beige%2045x45.jpg?crc=274035483'); ?>" alt="" data-image-width="176" data-image-height="176" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem" id="u2117"><!-- image -->
-      <img class="block temp_no_img_src" id="u2117_img" data-orig-src="<?php echo asset_url('images/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u2117_img" data-orig-src="<?php echo asset_url('images2/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem" id="u2107"><!-- image -->
-      <img class="block temp_no_img_src" id="u2107_img" data-orig-src="<?php echo asset_url('images/pehuen%20corte%20blanco%2045x45.jpg?crc=4228735947'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u2107_img" data-orig-src="<?php echo asset_url('images2/pehuen%20corte%20blanco%2045x45.jpg?crc=4228735947'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem" id="u2112"><!-- image -->
-      <img class="block temp_no_img_src" id="u2112_img" data-orig-src="<?php echo asset_url('images/rezatto%20gris%2045x45.jpg?crc=199948421'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_img_src" id="u2112_img" data-orig-src="<?php echo asset_url('images2/rezatto%20gris%2045x45.jpg?crc=199948421'); ?>" alt="" data-image-width="177" data-image-height="177" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
     </div>
     <div class="clearfix colelem shared_content" id="pu2097-9" data-content-guid="pu2097-9_content"><!-- group -->
@@ -298,11 +298,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div id="u1619"><!-- column -->
       <div class="clearfix" id="u1619_align_to_page">
        <div class="clearfix colelem" id="pu1626"><!-- group -->
-        <a class="nonblock nontext clip_frame grpelem" id="u1626" href="http://www.cordillera.cl/"><!-- image --><img class="block temp_no_img_src" id="u1626_img" data-orig-src="<?php echo asset_url('images/1cordillera.png?crc=414202433'); ?>" alt="" data-image-width="166" data-image-height="38" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
-        <a class="nonblock nontext clip_frame grpelem" id="u1628" href="http://www.fanaloza.cl/"><!-- image --><img class="block temp_no_img_src" id="u1628_img" data-orig-src="<?php echo asset_url('images/2fanaloza.png?crc=3995732979'); ?>" alt="" data-image-width="177" data-image-height="41" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
-        <a class="nonblock nontext clip_frame grpelem" id="u1630" href="http://www.fanaloza.cl/inicio-briggs/"><!-- image --><img class="block temp_no_img_src" id="u1630_img" data-orig-src="<?php echo asset_url('images/3briggs.png?crc=427294185'); ?>" alt="" data-image-width="178" data-image-height="40" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
-        <a class="nonblock nontext clip_frame grpelem" id="u1632" href="http://www.feltrex.cl/"><!-- image --><img class="block temp_no_img_src" id="u1632_img" data-orig-src="<?php echo asset_url('images/4feltrex.png?crc=4130524883'); ?>" alt="" data-image-width="93" data-image-height="70" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
-        <a class="nonblock nontext clip_frame grpelem" id="u1634" href="http://www.etersol.cl/"><!-- image --><img class="block temp_no_img_src" id="u1634_img" data-orig-src="<?php echo asset_url('images/5etersol.png?crc=139601143'); ?>" alt="" data-image-width="189" data-image-height="43" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem" id="u1626" href="http://www.cordillera.cl/"><!-- image --><img class="block temp_no_img_src" id="u1626_img" data-orig-src="<?php echo asset_url('images2/1cordillera.png?crc=414202433'); ?>" alt="" data-image-width="166" data-image-height="38" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem" id="u1628" href="http://www.fanaloza.cl/"><!-- image --><img class="block temp_no_img_src" id="u1628_img" data-orig-src="<?php echo asset_url('images2/2fanaloza.png?crc=3995732979'); ?>" alt="" data-image-width="177" data-image-height="41" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem" id="u1630" href="http://www.fanaloza.cl/inicio-briggs/"><!-- image --><img class="block temp_no_img_src" id="u1630_img" data-orig-src="<?php echo asset_url('images2/3briggs.png?crc=427294185'); ?>" alt="" data-image-width="178" data-image-height="40" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem" id="u1632" href="http://www.feltrex.cl/"><!-- image --><img class="block temp_no_img_src" id="u1632_img" data-orig-src="<?php echo asset_url('images2/4feltrex.png?crc=4130524883'); ?>" alt="" data-image-width="93" data-image-height="70" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem" id="u1634" href="http://www.etersol.cl/"><!-- image --><img class="block temp_no_img_src" id="u1634_img" data-orig-src="<?php echo asset_url('images2/5etersol.png?crc=139601143'); ?>" alt="" data-image-width="189" data-image-height="43" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
        </div>
        <div class="clearfix colelem shared_content" id="pu1621-5" data-content-guid="pu1621-5_content"><!-- group -->
         <div class="clearfix grpelem" id="u1621-5"><!-- content -->
@@ -356,7 +356,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
           <div class="clearfix grpelem shared_content" id="u1642-4" data-content-guid="u1642-4_content"><!-- content -->
            <h6>SÍGUENOS</h6>
           </div>
-          <a class="nonblock nontext transition clip_frame grpelem" id="u1622" href="https://www.facebook.com/ComercialToledoTemuco/?fref=ts"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u1623" data-orig-src="images/facebook.svg?crc=437744948" onload="this.style.height=(this.offsetWidth*56/56)+'px'" alt="" data-mu-svgfallback="<?php echo asset_url('images/facebook_poster_.png?crc=449910873'); ?>" data-image-width="56" data-image-height="56" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
+          <a class="nonblock nontext transition clip_frame grpelem" id="u1622" href="https://www.facebook.com/ComercialToledoTemuco/?fref=ts"><!-- svg --><img class="svg svg_mar temp_no_img_src" id="u1623" data-orig-src="images2/facebook.svg?crc=437744948" onload="this.style.height=(this.offsetWidth*56/56)+'px'" alt="" data-mu-svgfallback="<?php echo asset_url('images2/facebook_poster_.png?crc=449910873'); ?>" data-image-width="56" data-image-height="56" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
          </div>
         </div>
        </div>
@@ -408,19 +408,19 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
     <div class="clearfix colelem temp_no_id" data-orig-id="pu1837"><!-- group -->
      <div class="shadow clip_frame grpelem temp_no_id" data-orig-id="u1837"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u1837_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u1837_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1866"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="" data-image-width="144" data-image-height="144" data-orig-id="u1866_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="" data-image-width="144" data-image-height="144" data-orig-id="u1866_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1885"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/atenas%20marfil%2036x36.jpg?crc=147040897'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u1885_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/atenas%20marfil%2036x36.jpg?crc=147040897'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u1885_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1904"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/atenas%20marfil%2036x36.jpg?crc=147040897'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u1904_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/atenas%20marfil%2036x36.jpg?crc=147040897'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u1904_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1920"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/bacares%20arena%2036x36.jpg?crc=72811895'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u1920_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/bacares%20arena%2036x36.jpg?crc=72811895'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u1920_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
     </div>
     <span class="clearfix colelem placeholder" data-placeholder-for="pu1850-9_content"><!-- placeholder node --></span>
@@ -428,19 +428,19 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <span class="clearfix colelem placeholder" data-placeholder-for="pu1863-4_content"><!-- placeholder node --></span>
     <div class="clearfix colelem temp_no_id" data-orig-id="pu1947"><!-- group -->
      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1947"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/cimenta%20ceniza%2045x45.jpg?crc=4246538463'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u1947_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/cimenta%20ceniza%2045x45.jpg?crc=4246538463'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u1947_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1952"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" data-image-width="144" data-image-height="144" data-orig-id="u1952_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" data-image-width="144" data-image-height="144" data-orig-id="u1952_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id" data-orig-id="u2065"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u2065_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u2065_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1962"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/iberica%20grafito%2045x45.jpg?crc=431928625'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u1962_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/iberica%20grafito%2045x45.jpg?crc=431928625'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u1962_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id" data-orig-id="u1967"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/iberica%20marfil%2045x45.jpg?crc=3821233646'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u1967_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/iberica%20marfil%2045x45.jpg?crc=3821233646'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u1967_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
     </div>
     <span class="clearfix colelem placeholder" data-placeholder-for="pu1949-9_content"><!-- placeholder node --></span>
@@ -448,19 +448,19 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <span class="clearfix colelem placeholder" data-placeholder-for="pu2559-4_content"><!-- placeholder node --></span>
     <div class="clearfix colelem temp_no_id" data-orig-id="pu2095"><!-- group -->
      <div class="clip_frame grpelem temp_no_id" data-orig-id="u2095"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/iberica%20oxido%2045x45.jpg?crc=3862632190'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u2095_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/iberica%20oxido%2045x45.jpg?crc=3862632190'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u2095_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id" data-orig-id="u2100"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/mairena%20beige%2045x45.jpg?crc=274035483'); ?>" alt="" data-image-width="144" data-image-height="144" data-orig-id="u2100_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/mairena%20beige%2045x45.jpg?crc=274035483'); ?>" alt="" data-image-width="144" data-image-height="144" data-orig-id="u2100_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id" data-orig-id="u2117"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u2117_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u2117_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id" data-orig-id="u2107"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/pehuen%20corte%20blanco%2045x45.jpg?crc=4228735947'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u2107_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/pehuen%20corte%20blanco%2045x45.jpg?crc=4228735947'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u2107_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id" data-orig-id="u2112"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/rezatto%20gris%2045x45.jpg?crc=199948421'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u2112_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/rezatto%20gris%2045x45.jpg?crc=199948421'); ?>" alt="" data-image-width="145" data-image-height="145" data-orig-id="u2112_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
     </div>
     <span class="clearfix colelem placeholder" data-placeholder-for="pu2097-9_content"><!-- placeholder node --></span>
@@ -471,11 +471,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="temp_no_id" data-orig-id="u1619"><!-- column -->
       <div class="clearfix temp_no_id" data-orig-id="u1619_align_to_page">
        <div class="clearfix colelem temp_no_id" data-orig-id="pu1626"><!-- group -->
-        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="http://www.cordillera.cl/" data-orig-id="u1626"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/flecha.png?crc=4183845657'); ?>images/1cordillera.png?crc=414202433" alt="" data-image-width="136" data-image-height="31" data-orig-id="u1626_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
-        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="http://www.fanaloza.cl/" data-orig-id="u1628"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/2fanaloza.png?crc=3995732979'); ?>" alt="" data-image-width="145" data-image-height="33" data-orig-id="u1628_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
-        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="http://www.fanaloza.cl/inicio-briggs/" data-orig-id="u1630"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/3briggs.png?crc=427294185'); ?>" alt="" data-image-width="146" data-image-height="33" data-orig-id="u1630_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
-        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="http://www.feltrex.cl/" data-orig-id="u1632"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/4feltrex.png?crc=4130524883'); ?>" alt="" data-image-width="77" data-image-height="57" data-orig-id="u1632_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>images/blank.gif?crc=4208392903"/></a>
-        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="http://www.etersol.cl/" data-orig-id="u1634"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/5etersol.png?crc=139601143'); ?>" alt="" data-image-width="156" data-image-height="35" data-orig-id="u1634_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="http://www.cordillera.cl/" data-orig-id="u1626"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/1cordillera.png?crc=414202433'); ?> "alt="" data-image-width="136" data-image-height="31" data-orig-id="u1626_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="http://www.fanaloza.cl/" data-orig-id="u1628"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/2fanaloza.png?crc=3995732979'); ?>" alt="" data-image-width="145" data-image-height="33" data-orig-id="u1628_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="http://www.fanaloza.cl/inicio-briggs/" data-orig-id="u1630"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/3briggs.png?crc=427294185'); ?>" alt="" data-image-width="146" data-image-height="33" data-orig-id="u1630_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="http://www.feltrex.cl/" data-orig-id="u1632"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/4feltrex.png?crc=4130524883'); ?>" alt="" data-image-width="77" data-image-height="57" data-orig-id="u1632_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem temp_no_id" href="http://www.etersol.cl/" data-orig-id="u1634"><!-- image --><img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/5etersol.png?crc=139601143'); ?>" alt="" data-image-width="156" data-image-height="35" data-orig-id="u1634_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
        </div>
        <span class="clearfix colelem placeholder" data-placeholder-for="pu1621-5_content"><!-- placeholder node --></span>
        <div class="clearfix colelem temp_no_id" data-orig-id="pu1620-30"><!-- group -->
@@ -485,7 +485,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
          <span class="clearfix colelem placeholder" data-placeholder-for="u1641-7_content"><!-- placeholder node --></span>
          <div class="clearfix colelem temp_no_id" data-orig-id="pu1642-4"><!-- group -->
           <span class="clearfix grpelem placeholder" data-placeholder-for="u1642-4_content"><!-- placeholder node --></span>
-          <a class="nonblock nontext transition clip_frame grpelem temp_no_id" href="https://www.facebook.com/ComercialToledoTemuco/?fref=ts" data-orig-id="u1622"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/facebook.svg?crc=437744948'); ?>" onload="this.style.height=(this.offsetWidth*45.9666666666667/45.9666666666667)+'px'" alt="" data-mu-svgfallback="<?php echo asset_url('images/facebook_poster_.png?crc=449910873'); ?>" data-image-width="46" data-image-height="46" data-orig-id="u1623" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
+          <a class="nonblock nontext transition clip_frame grpelem temp_no_id" href="https://www.facebook.com/ComercialToledoTemuco/?fref=ts" data-orig-id="u1622"><!-- svg --><img class="svg svg_mar temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/facebook.svg?crc=437744948'); ?>" onload="this.style.height=(this.offsetWidth*45.9666666666667/45.9666666666667)+'px'" alt="" data-mu-svgfallback="<?php echo asset_url('images2/facebook_poster_.png?crc=449910873'); ?>" data-image-width="46" data-image-height="46" data-orig-id="u1623" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
          </div>
         </div>
        </div>
@@ -515,7 +515,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <div class="clearfix" id="u21266_align_to_page">
        <div class="clearfix grpelem temp_no_id" data-orig-id="u13521"><!-- group -->
         <div class="clip_frame grpelem temp_no_id shared_content" data-orig-id="u13522" data-content-guid="u13522_content"><!-- svg -->
-         <img class="svg temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/revestimiento.svg?crc=4245013538'); ?>" width="34" height="34" alt="" data-mu-svgfallback="<?php echo asset_url('images/revestimiento_poster_.png?crc=4233917495'); ?>" data-orig-id="u13523" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+         <img class="svg temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/revestimiento.svg?crc=4245013538'); ?>" width="34" height="34" alt="" data-mu-svgfallback="<?php echo asset_url('images2/revestimiento_poster_.png?crc=4233917495'); ?>" data-orig-id="u13523" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
         </div>
         <span class="clearfix grpelem placeholder" data-placeholder-for="u13524-4_content"><!-- placeholder node --></span>
        </div>
@@ -535,13 +535,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
     <div class="clearfix colelem temp_no_id shared_content" data-orig-id="pu1837" data-content-guid="pu1837_content"><!-- group -->
      <div class="shadow clip_frame clearfix grpelem temp_no_id shared_content" data-orig-id="u1837" data-content-guid="u1837_content"><!-- image -->
-      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="" width="142" height="177" data-orig-id="u1837_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="" width="142" height="177" data-orig-id="u1837_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id shared_content" data-orig-id="u1866" data-content-guid="u1866_content"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="" width="141" height="176" data-orig-id="u1866_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="" width="141" height="176" data-orig-id="u1866_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id shared_content" data-orig-id="u1885" data-content-guid="u1885_content"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/atenas%20marfil%2036x36.jpg?crc=147040897'); ?>" alt="" width="142" height="176" data-orig-id="u1885_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/atenas%20marfil%2036x36.jpg?crc=147040897'); ?>" alt="" width="142" height="176" data-orig-id="u1885_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
     </div>
     <div class="clearfix colelem temp_no_id" data-orig-id="pu1850-9"><!-- group -->
@@ -561,13 +561,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
     <div class="clearfix colelem shared_content" id="pu1904" data-content-guid="pu1904_content"><!-- group -->
      <div class="clip_frame grpelem temp_no_id shared_content" data-orig-id="u1904" data-content-guid="u1904_content"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>images/atenas%20marfil%2036x36.jpg?crc=147040897" alt="" width="142" height="176" data-orig-id="u1904_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/atenas%20marfil%2036x36.jpg?crc=147040897'); ?>" alt="" width="142" height="176" data-orig-id="u1904_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame clearfix grpelem temp_no_id shared_content" data-orig-id="u1920" data-content-guid="u1920_content"><!-- image -->
-      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/bacares%20arena%2036x36.jpg?crc=72811895'); ?>" alt="" width="142" height="177" data-orig-id="u1920_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/bacares%20arena%2036x36.jpg?crc=72811895'); ?>" alt="" width="142" height="177" data-orig-id="u1920_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame clearfix grpelem temp_no_id shared_content" data-orig-id="u1947" data-content-guid="u1947_content"><!-- image -->
-      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/cimenta%20ceniza%2045x45.jpg?crc=4246538463'); ?>" alt="" width="142" height="177" data-orig-id="u1947_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/cimenta%20ceniza%2045x45.jpg?crc=4246538463'); ?>" alt="" width="142" height="177" data-orig-id="u1947_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
     </div>
     <div class="clearfix colelem" id="pu1906-9"><!-- group -->
@@ -587,13 +587,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
     <div class="clearfix colelem shared_content" id="pu1952" data-content-guid="pu1952_content"><!-- group -->
      <div class="clip_frame grpelem temp_no_id shared_content" data-orig-id="u1952" data-content-guid="u1952_content"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" width="141" height="176" data-orig-id="u1952_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" width="141" height="176" data-orig-id="u1952_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame clearfix grpelem temp_no_id shared_content" data-orig-id="u2065" data-content-guid="u2065_content"><!-- image -->
-      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" width="142" height="177" data-orig-id="u2065_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" width="142" height="177" data-orig-id="u2065_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame clearfix grpelem temp_no_id shared_content" data-orig-id="u1962" data-content-guid="u1962_content"><!-- image -->
-      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/iberica%20grafito%2045x45.jpg?crc=431928625'); ?>" alt="" width="142" height="177" data-orig-id="u1962_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/iberica%20grafito%2045x45.jpg?crc=431928625'); ?>" alt="" width="142" height="177" data-orig-id="u1962_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
     </div>
     <div class="clearfix colelem" id="pu1954-9"><!-- group -->
@@ -613,13 +613,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
     <div class="clearfix colelem shared_content" id="pu1967" data-content-guid="pu1967_content"><!-- group -->
      <div class="clip_frame clearfix grpelem temp_no_id shared_content" data-orig-id="u1967" data-content-guid="u1967_content"><!-- image -->
-      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/iberica%20marfil%2045x45.jpg?crc=3821233646'); ?>" alt="" width="142" height="177" data-orig-id="u1967_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/iberica%20marfil%2045x45.jpg?crc=3821233646'); ?>" alt="" width="142" height="177" data-orig-id="u1967_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame clearfix grpelem temp_no_id shared_content" data-orig-id="u2095" data-content-guid="u2095_content"><!-- image -->
-      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/iberica%20oxido%2045x45.jpg?crc=38626321903'); ?>" alt="" width="142" height="177" data-orig-id="u2095_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/iberica%20oxido%2045x45.jpg?crc=38626321903'); ?>" alt="" width="142" height="177" data-orig-id="u2095_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame grpelem temp_no_id shared_content" data-orig-id="u2100" data-content-guid="u2100_content"><!-- image -->
-      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/mairena%20beige%2045x45.jpg?crc=274035483'); ?>" alt="" width="141" height="176" data-orig-id="u2100_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/mairena%20beige%2045x45.jpg?crc=274035483'); ?>" alt="" width="141" height="176" data-orig-id="u2100_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
     </div>
     <div class="clearfix colelem" id="pu1969-9"><!-- group -->
@@ -639,13 +639,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
     <div class="clearfix colelem shared_content" id="pu2117" data-content-guid="pu2117_content"><!-- group -->
      <div class="clip_frame clearfix grpelem temp_no_id shared_content" data-orig-id="u2117" data-content-guid="u2117_content"><!-- image -->
-      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" width="142" height="177" data-orig-id="u2117_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/cuomo%20blanco%2036x36.jpg?crc=3811849572'); ?>" alt="" width="142" height="177" data-orig-id="u2117_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame clearfix grpelem temp_no_id shared_content" data-orig-id="u2107" data-content-guid="u2107_content"><!-- image -->
-      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/pehuen%20corte%20blanco%2045x45.jpg?crc=4228735947'); ?>" alt="" width="142" height="177" data-orig-id="u2107_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/pehuen%20corte%20blanco%2045x45.jpg?crc=4228735947'); ?>" alt="" width="142" height="177" data-orig-id="u2107_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
      <div class="clip_frame clearfix grpelem temp_no_id shared_content" data-orig-id="u2112" data-content-guid="u2112_content"><!-- image -->
-      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images/rezatto%20gris%2045x45.jpg?crc=199948421'); ?>" alt="" width="142" height="177" data-orig-id="u2112_img" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/>
+      <img class="position_content temp_no_id temp_no_img_src" data-orig-src="<?php echo asset_url('images2/rezatto%20gris%2045x45.jpg?crc=199948421'); ?>" alt="" width="142" height="177" data-orig-id="u2112_img" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/>
      </div>
     </div>
     <div class="clearfix colelem" id="pu2119-9"><!-- group -->
@@ -668,13 +668,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div id="u21273"><!-- column -->
       <div class="clearfix" id="u21273_align_to_page">
        <div class="clearfix colelem" id="pu21279"><!-- group -->
-        <a class="nonblock nontext clip_frame grpelem shared_content" id="u21279" href="http://www.cordillera.cl/" data-content-guid="u21279_content"><!-- image --><img class="block temp_no_img_src" id="u21279_img" data-orig-src="<?php echo asset_url('images/1cordillera.png?crc=414202433'); ?>" alt="" width="156" height="35" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
-        <a class="nonblock nontext clip_frame grpelem shared_content" id="u21281" href="http://www.fanaloza.cl/" data-content-guid="u21281_content"><!-- image --><img class="block temp_no_img_src" id="u21281_img" data-orig-src="<?php echo asset_url('images/2fanaloza.png?crc=3995732979'); ?>" alt="" width="166" height="38" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
-        <a class="nonblock nontext clip_frame grpelem shared_content" id="u21283" href="http://www.fanaloza.cl/inicio-briggs/" data-content-guid="u21283_content"><!-- image --><img class="block temp_no_img_src" id="u21283_img" data-orig-src="images/3briggs.png?crc=427294185" alt="" width="167" height="38" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem shared_content" id="u21279" href="http://www.cordillera.cl/" data-content-guid="u21279_content"><!-- image --><img class="block temp_no_img_src" id="u21279_img" data-orig-src="<?php echo asset_url('images2/1cordillera.png?crc=414202433'); ?>" alt="" width="156" height="35" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem shared_content" id="u21281" href="http://www.fanaloza.cl/" data-content-guid="u21281_content"><!-- image --><img class="block temp_no_img_src" id="u21281_img" data-orig-src="<?php echo asset_url('images2/2fanaloza.png?crc=3995732979'); ?>" alt="" width="166" height="38" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem shared_content" id="u21283" href="http://www.fanaloza.cl/inicio-briggs/" data-content-guid="u21283_content"><!-- image --><img class="block temp_no_img_src" id="u21283_img" data-orig-src="images2/3briggs.png?crc=427294185" alt="" width="167" height="38" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
        </div>
        <div class="clearfix colelem" id="pu21285"><!-- group -->
-        <a class="nonblock nontext clip_frame grpelem shared_content" id="u21285" href="http://www.feltrex.cl/" data-content-guid="u21285_content"><!-- image --><img class="block temp_no_img_src" id="u21285_img" data-orig-src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>" alt="" width="88" height="66" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
-        <a class="nonblock nontext clip_frame grpelem shared_content" id="u21287" href="http://www.etersol.cl/" data-content-guid="u21287_content"><!-- image --><img class="block temp_no_img_src" id="u21287_img" data-orig-src="<?php echo asset_url('images/5etersol.png?crc=139601143'); ?>" alt="" width="178" height="40" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem shared_content" id="u21285" href="http://www.feltrex.cl/" data-content-guid="u21285_content"><!-- image --><img class="block temp_no_img_src" id="u21285_img" data-orig-src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>" alt="" width="88" height="66" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+        <a class="nonblock nontext clip_frame grpelem shared_content" id="u21287" href="http://www.etersol.cl/" data-content-guid="u21287_content"><!-- image --><img class="block temp_no_img_src" id="u21287_img" data-orig-src="<?php echo asset_url('images2/5etersol.png?crc=139601143'); ?>" alt="" width="178" height="40" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
        </div>
        <div class="clearfix colelem shared_content" id="pu21275-5" data-content-guid="pu21275-5_content"><!-- group -->
         <div class="clearfix grpelem" id="u21275-5"><!-- content -->
@@ -728,7 +728,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <div class="clearfix grpelem" id="u21295-4"><!-- content -->
          <h6>SÍGUENOS</h6>
         </div>
-        <a class="nonblock nontext transition clip_frame grpelem" id="u21276" href="https://www.facebook.com/ComercialToledoTemuco/?fref=ts"><!-- svg --><img class="svg temp_no_img_src" id="u21277" data-orig-src="<?php echo asset_url('images/facebook.svg?crc=437744948'); ?>" width="45" height="45" alt="" data-mu-svgfallback="<?php echo asset_url('images/facebook_poster_.png?crc=449910873'); ?>" src="<?php echo asset_url('images/blank.gif?crc=42083929033'); ?>"/></a>
+        <a class="nonblock nontext transition clip_frame grpelem" id="u21276" href="https://www.facebook.com/ComercialToledoTemuco/?fref=ts"><!-- svg --><img class="svg temp_no_img_src" id="u21277" data-orig-src="<?php echo asset_url('images2/facebook.svg?crc=437744948'); ?>" width="45" height="45" alt="" data-mu-svgfallback="<?php echo asset_url('images2/facebook_poster_.png?crc=449910873'); ?>" src="<?php echo asset_url('images2/blank.gif?crc=42083929033'); ?>"/></a>
        </div>
        <div class="colelem shared_content" id="u21278" data-content-guid="u21278_content"><!-- simple frame --></div>
        <div class="clearfix colelem shared_content" id="u21300-9" data-content-guid="u21300-9_content"><!-- content -->
@@ -840,11 +840,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div class="verticalspacer shared_content" data-offset-top="2162" data-content-above-spacer="2161" data-content-below-spacer="8724" data-content-guid="page_23_content"></div>
     <div class="clearfix colelem" id="pu21273"><!-- group -->
      <div class="clearfix grpelem temp_no_id" data-orig-id="u21273"><!-- column -->
-      <a class="nonblock nontext clip_frame clearfix colelem" id="u55421" href="http://www.cordillera.cl/"><!-- image --><img class="position_content temp_no_img_src" id="u55421_img" data-orig-src="<?php echo asset_url('images/1cordillera.png?crc=414202433'); ?>" alt="" width="166" height="38" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
-      <a class="nonblock nontext clip_frame clearfix colelem" id="u55423" href="http://www.fanaloza.cl/"><!-- image --><img class="position_content temp_no_img_src" id="u55423_img" data-orig-src="<?php echo asset_url('images/2fanaloza.png?crc=3995732979'); ?>" alt="" width="177" height="41" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
-      <a class="nonblock nontext clip_frame colelem" id="u55425" href="http://www.fanaloza.cl/inicio-briggs/"><!-- image --><img class="block temp_no_img_src" id="u55425_img" data-orig-src="<?php echo asset_url('images/3briggs.png?crc=427294185'); ?>" alt="" width="163" height="37" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
-      <a class="nonblock nontext clip_frame clearfix colelem" id="u55427" href="http://www.feltrex.cl/"><!-- image --><img class="position_content temp_no_img_src" id="u55427_img" data-orig-src="<?php echo asset_url('images/4feltrex.png?crc=4130524883'); ?>" alt="" width="86" height="64" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
-      <a class="nonblock nontext clip_frame clearfix colelem" id="u55429" href="http://www.etersol.cl/"><!-- image --><img class="position_content temp_no_img_src" id="u55429_img" data-orig-src="<?php echo asset_url('images/5etersol.png?crc=139601143'); ?>" alt="" width="189" height="43" src="<?php echo asset_url('images/blank.gif?crc=4208392903'); ?>"/></a>
+      <a class="nonblock nontext clip_frame clearfix colelem" id="u55421" href="http://www.cordillera.cl/"><!-- image --><img class="position_content temp_no_img_src" id="u55421_img" data-orig-src="<?php echo asset_url('images2/1cordillera.png?crc=414202433'); ?>" alt="" width="166" height="38" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+      <a class="nonblock nontext clip_frame clearfix colelem" id="u55423" href="http://www.fanaloza.cl/"><!-- image --><img class="position_content temp_no_img_src" id="u55423_img" data-orig-src="<?php echo asset_url('images2/2fanaloza.png?crc=3995732979'); ?>" alt="" width="177" height="41" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+      <a class="nonblock nontext clip_frame colelem" id="u55425" href="http://www.fanaloza.cl/inicio-briggs/"><!-- image --><img class="block temp_no_img_src" id="u55425_img" data-orig-src="<?php echo asset_url('images2/3briggs.png?crc=427294185'); ?>" alt="" width="163" height="37" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+      <a class="nonblock nontext clip_frame clearfix colelem" id="u55427" href="http://www.feltrex.cl/"><!-- image --><img class="position_content temp_no_img_src" id="u55427_img" data-orig-src="<?php echo asset_url('images2/4feltrex.png?crc=4130524883'); ?>" alt="" width="86" height="64" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
+      <a class="nonblock nontext clip_frame clearfix colelem" id="u55429" href="http://www.etersol.cl/"><!-- image --><img class="position_content temp_no_img_src" id="u55429_img" data-orig-src="<?php echo asset_url('images2/5etersol.png?crc=139601143'); ?>" alt="" width="189" height="43" src="<?php echo asset_url('images2/blank.gif?crc=4208392903'); ?>"/></a>
       <span class="colelem placeholder" data-placeholder-for="u21278_content"><!-- placeholder node --></span>
       <span class="clearfix colelem placeholder" data-placeholder-for="u21300-9_content"><!-- placeholder node --></span>
      </div>
@@ -1616,19 +1616,21 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),i=0;i<f.length;i++)if("text/css"==f[i].type){var h=(f[i].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!h||!h[1]||!h[2])break;b[h[1]]=h[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(i=0;i<Muse.assets.required.length;){var h=Muse.assets.required[i],l=h.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(i,1),"undefined"!=typeof b[h]&&(k!=b[h]>>>24||l!=(b[h]&16777215))&&Muse.assets.outOfDate.push(h)):i++;f.className="version";break;case "js":k.match(/^jquery-[\d\.]+/gi)&&d&&d().jquery=="1.8.3"?Muse.assets.required.splice(i,1):i++;break;default:throw Error("Unsupported file type: "+
 l);}}f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Puede que determinados archivos falten en el servidor o sean incorrectos. Limpie la cache del navegador e inténtelo de nuevo. Si el problema persiste, póngase en contacto con el administrador del sitio web.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch","jquery.museresponsive"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.musepolyfill.bgsize","jquery.watch","webpro"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
+Muse.Utils.initWidget('#widgetu11971', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu11971 */
+Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
 </script>
   <!-- RequireJS script -->
-<script src="<?php echo asset_url('js/require.js?crc=4108833657'); ?>" type="text/javascript" async data-main="<?php echo asset_url('js/museconfig.js?crc=169177150'); ?>" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <script src="<?php echo asset_url('js/require.js?crc=4108833657'); ?>" type="text/javascript" async data-main="<?php echo asset_url('js/museconfig.js?crc=169177150'); ?>" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
    </body>
 </html>
