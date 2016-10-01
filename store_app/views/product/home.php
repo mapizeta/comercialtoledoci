@@ -42,6 +42,18 @@ a:link
 {   
  text-decoration:none;   
 } 
+
+.cotiza:hover{
+   background-color:#FF0000;
+}
+a div.ficha:hover{
+   background-color:#FF0000;
+}
+
+img:hover, a img:hover {
+border:3px solid #833301; /*ancho y color del borde */
+border-radius:0px; /* radio del borde */
+}
 </style>
 
 <!-- PRODUUCTOS -->
@@ -57,14 +69,36 @@ a:link
             </div>
             <div class="col-md-2 portfolio-item" style="text-align: left;">
                 <a href="#">
-                    <img class="img-responsive" src="<?php echo asset_url('images2/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="">
+                    <img class="img-responsive" src="<?php echo asset_url('images/olivillo%20caramelo%2045x45.jpg?crc=94621944'); ?>" alt="">
                 </a>
             	  <h5><strong>CIMENTA CENIZA</strong></h5>
 			      <h5 style="margin-top: -8px;"><strong>Cerámicos</strong></h5>
 			      <h5 style="margin-top: -8px;" ><strong>Dimensiones: 45x45</strong></h5>
 			      <h5 >&nbsp;</h5>
-			      <a class="nonblock" href="http://#"><div style="background-color: #833301;height: 34px;padding: 7px;text-align: center;font-weight: 600;">FICHA TÉCNICA</div></a>
-				  <a class="nonblock" href="http://#"><div style="background-color: #e95800;height: 34px;padding: 7px;text-align: center;font-weight: 600;">COTIZAR</div>	</a>	
+			      <a href="http://#"><div class="ficha" style="background-color: #833301;height: 34px;padding: 7px;text-align: center;font-weight: 600;">FICHA TÉCNICA</div></a>
+				  <a href="http://#"><div  class="cotiza"  style="background-color: #e95800;height: 34px;padding: 7px;text-align: center;font-weight: 600;">COTIZAR</div>	</a>	
+			</div>
+             <div class="col-md-2 portfolio-item" style="text-align: left;">
+                <a href="#">
+                    <img class="img-responsive" src="<?php echo asset_url('images/parqueton%20caramelo%2060x60.jpg?crc=118005730'); ?>" alt="">
+                </a>
+            	  <h5><strong>CIMENTA CENIZA</strong></h5>
+			      <h5 style="margin-top: -8px;"><strong>Cerámicos</strong></h5>
+			      <h5 style="margin-top: -8px;" ><strong>Dimensiones: 45x45</strong></h5>
+			      <h5 >&nbsp;</h5>
+			      <a class="ficha" href="http://#"><div style="background-color: #833301;height: 34px;padding: 7px;text-align: center;font-weight: 600;">FICHA TÉCNICA</div></a>
+				  <a class="cotiza" href="http://#"><div style="background-color: #e95800;height: 34px;padding: 7px;text-align: center;font-weight: 600;">COTIZAR</div>	</a>	
+			</div>
+             <div class="col-md-2 portfolio-item" style="text-align: left;">
+                <a href="#">
+                    <img class="img-responsive" src="<?php echo asset_url('images/sauce%20beige%2036x36.jpg?crc=416825218'); ?>" alt="">
+                </a>
+            	  <h5><strong>CIMENTA CENIZA</strong></h5>
+			      <h5 style="margin-top: -8px;"><strong>Cerámicos</strong></h5>
+			      <h5 style="margin-top: -8px;" ><strong>Dimensiones: 45x45</strong></h5>
+			      <h5 >&nbsp;</h5>
+			      <a class="ficha" href="http://#"><div style="background-color: #833301;height: 34px;padding: 7px;text-align: center;font-weight: 600;">FICHA TÉCNICA</div></a>
+				  <a class="cotiza" href="http://#"><div style="background-color: #e95800;height: 34px;padding: 7px;text-align: center;font-weight: 600;">COTIZAR</div>	</a>	
 			</div>
              <div class="col-md-2 portfolio-item" style="text-align: left;">
                 <a href="#">
@@ -74,8 +108,8 @@ a:link
 			      <h5 style="margin-top: -8px;"><strong>Cerámicos</strong></h5>
 			      <h5 style="margin-top: -8px;" ><strong>Dimensiones: 45x45</strong></h5>
 			      <h5 >&nbsp;</h5>
-			      <a class="nonblock" href="http://#"><div style="background-color: #833301;height: 34px;padding: 7px;text-align: center;font-weight: 600;">FICHA TÉCNICA</div></a>
-				  <a class="nonblock" href="http://#"><div style="background-color: #e95800;height: 34px;padding: 7px;text-align: center;font-weight: 600;">COTIZAR</div>	</a>	
+			      <a class="ficha" href="http://#"><div style="background-color: #833301;height: 34px;padding: 7px;text-align: center;font-weight: 600;">FICHA TÉCNICA</div></a>
+				  <a class="cotiza" href="http://#"><div style="background-color: #e95800;height: 34px;padding: 7px;text-align: center;font-weight: 600;">COTIZAR</div>	</a>	
 			</div>
              <div class="col-md-2 portfolio-item" style="text-align: left;">
                 <a href="#">
@@ -85,30 +119,8 @@ a:link
 			      <h5 style="margin-top: -8px;"><strong>Cerámicos</strong></h5>
 			      <h5 style="margin-top: -8px;" ><strong>Dimensiones: 45x45</strong></h5>
 			      <h5 >&nbsp;</h5>
-			      <a class="nonblock" href="http://#"><div style="background-color: #833301;height: 34px;padding: 7px;text-align: center;font-weight: 600;">FICHA TÉCNICA</div></a>
-				  <a class="nonblock" href="http://#"><div style="background-color: #e95800;height: 34px;padding: 7px;text-align: center;font-weight: 600;">COTIZAR</div>	</a>	
-			</div>
-             <div class="col-md-2 portfolio-item" style="text-align: left;">
-                <a href="#">
-                    <img class="img-responsive" src="<?php echo asset_url('images2/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="">
-                </a>
-            	  <h5><strong>CIMENTA CENIZA</strong></h5>
-			      <h5 style="margin-top: -8px;"><strong>Cerámicos</strong></h5>
-			      <h5 style="margin-top: -8px;" ><strong>Dimensiones: 45x45</strong></h5>
-			      <h5 >&nbsp;</h5>
-			      <a class="nonblock" href="http://#"><div style="background-color: #833301;height: 34px;padding: 7px;text-align: center;font-weight: 600;">FICHA TÉCNICA</div></a>
-				  <a class="nonblock" href="http://#"><div style="background-color: #e95800;height: 34px;padding: 7px;text-align: center;font-weight: 600;">COTIZAR</div>	</a>	
-			</div>
-             <div class="col-md-2 portfolio-item" style="text-align: left;">
-                <a href="#">
-                    <img class="img-responsive" src="<?php echo asset_url('images2/atenas%20beige%2036x36.jpg?crc=3870275145'); ?>" alt="">
-                </a>
-            	  <h5><strong>CIMENTA CENIZA</strong></h5>
-			      <h5 style="margin-top: -8px;"><strong>Cerámicos</strong></h5>
-			      <h5 style="margin-top: -8px;" ><strong>Dimensiones: 45x45</strong></h5>
-			      <h5 >&nbsp;</h5>
-			      <a class="nonblock" href="http://#"><div style="background-color: #833301;height: 34px;padding: 7px;text-align: center;font-weight: 600;">FICHA TÉCNICA</div></a>
-				  <a class="nonblock" href="http://#"><div style="background-color: #e95800;height: 34px;padding: 7px;text-align: center;font-weight: 600;">COTIZAR</div>	</a>		
+			      <a class="ficha" href="http://#"><div style="background-color: #833301;height: 34px;padding: 7px;text-align: center;font-weight: 600;">FICHA TÉCNICA</div></a>
+				  <a class="cotiza" href="http://#"><div style="background-color: #e95800;height: 34px;padding: 7px;text-align: center;font-weight: 600;">COTIZAR</div>	</a>		
 
 			</div>
 

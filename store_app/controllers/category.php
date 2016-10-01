@@ -17,7 +17,7 @@ class category extends My_Controller{
     }
     
     function index(){
-        $category_id = $this->uri->segment(2);
+      /*  $category_id = $this->uri->segment(2);
         if($category_id == FALSE){
             redirect('home', 'refresh');
         }else{
@@ -30,6 +30,9 @@ class category extends My_Controller{
             
             
             parent::loadPage('category', $category->row()->name, $data);   
-        }
+        }*/
+
+        $this->load->view('category/home');
+
     }
 }
