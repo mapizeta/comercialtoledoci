@@ -22,7 +22,9 @@ class product extends My_Controller{
     
     function index(){
        // $this->single();
-        $this->load->view('product/list');
+        // $this->load->view('common/header');
+
+        $this->load->view('product/home');
 
     }
     
