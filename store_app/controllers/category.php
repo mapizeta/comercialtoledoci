@@ -31,8 +31,9 @@ class category extends My_Controller{
             
             parent::loadPage('category', $category->row()->name, $data);   
         }*/
-
+        $this->load->view('common/header_category');
         $this->load->view('category/revestimientos');
+        $this->load->view('common/footer_category');
 
     }
 }
