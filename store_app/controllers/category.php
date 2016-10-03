@@ -32,7 +32,7 @@ class category extends My_Controller{
             parent::loadPage('category', $category->row()->name, $data);   
         }*/
 
-        $this->load->view('category/home');
+        $this->load->view('category/revestimientos');
 
     }
 }
