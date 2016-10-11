@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 25-09-2016 a las 12:38:57
+-- Tiempo de generación: 11-10-2016 a las 03:14:37
 -- Versión del servidor: 5.5.49-0+deb8u1
 -- Versión de PHP: 5.6.22-0+deb8u1
 
@@ -55,18 +55,26 @@ CREATE TABLE IF NOT EXISTS `category` (
   `name` varchar(20) NOT NULL,
   `order` int(11) NOT NULL DEFAULT '0',
   `padre` int(11) DEFAULT '0'
-
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `category`
 --
 
 INSERT INTO `category` (`id`, `name`, `order`, `padre`) VALUES
-(1, 'Washing Machines', 4, 0),
-(2, 'Tumble Dryers', 5, 0),
-(3, 'Televisions', 2, 0),
-(5, 'Laptops', 0, 0);
+(1, 'Revestimientos', 1, 6),
+(2, 'Baños', 2, 6),
+(3, 'Cortinas', 3, 6),
+(5, 'Adhesivos', 4, 6),
+(6, 'Cerámicos', 6, 1),
+(7, 'Gres Porcelánico', 7, 1),
+(8, 'Porcelanatos', 0, 1),
+(9, 'Fachaletas', 0, 1),
+(10, 'Pisos Vinílicos', 0, 1),
+(11, 'Pisos Laminados', 0, 1),
+(12, 'Pisos de Ingeniería ', 0, 1),
+(13, 'Alfombas', 0, 1),
+(14, 'Decorativos', 0, 1);
 
 -- --------------------------------------------------------
 
@@ -198,6 +206,7 @@ CREATE TABLE IF NOT EXISTS `product` (
   `name` varchar(60) NOT NULL,
   `description` text NOT NULL,
   `category` int(11) NOT NULL,
+  `dimensiones` varchar(200) DEFAULT 'Personalizado',
   `manufacturer` int(11) NOT NULL,
   `quantity` mediumint(9) NOT NULL DEFAULT '0',
   `image` varchar(40) DEFAULT NULL,
@@ -210,13 +219,13 @@ CREATE TABLE IF NOT EXISTS `product` (
 -- Volcado de datos para la tabla `product`
 --
 
-INSERT INTO `product` (`id`, `sku`, `name`, `description`, `category`, `manufacturer`, `quantity`, `image`, `price`, `status`, `views`) VALUES
-(2, 'ABC123', 'Product 1', 'This is the description', 1, 2, 0, '1.jpg', 4.50, 1, 0),
-(3, 'BCD234', 'Product 2', 'This is the description', 1, 2, 5, '2.jpg', 4.50, 1, 0),
-(4, 'QWE321', 'This is my Product', 'This is the description', 2, 2, 2, '3.jpg', 59.99, 1, 0),
-(5, 'SKU1234', 'My First Form Added Product', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare vulputate enim, sollicitudin interdum turpis imperdiet id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam ac ante magna. Vestibulum vehicula ullamcorper odio condimentum tempor. Donec vulputate odio in nulla auctor iaculis. Ut id enim congue, congue velit vitae, accumsan dolor. In laoreet nec magna eget faucibus. Cras volutpat mi quam, a convallis quam dictum non. Proin vitae dui ut lectus semper hendrerit quis eget elit. Nam felis tellus, hendrerit eget sagittis sit amet, vestibulum quis orci. Sed condimentum, nunc quis varius elementum, nisl urna elementum magna, quis laoreet neque nisi quis risus. In tincidunt urna vel massa elementum laoreet. Sed tempor vehicula nibh, vitae volutpat tellus iaculis id. Proin a orci dolor. Phasellus ut metus eu sem posuere bibendum convallis vel odio.</p>', 5, 1, 3, '1.jpg', 20.00, 1, 0),
-(6, '', '', '', 0, 0, 0, '', 0.00, 0, 0),
-(7, '', '', '', 0, 0, 0, '', 0.00, 0, 0);
+INSERT INTO `product` (`id`, `sku`, `name`, `description`, `category`, `dimensiones`, `manufacturer`, `quantity`, `image`, `price`, `status`, `views`) VALUES
+(2, 'ABC123', 'Atenas Beige', '<p>DImesiones:36x36</p>', 1, '36x36', 0, 0, 'lg-42-1.jpg', 4.50, 1, 0),
+(3, '3', 'Atenas Beige', '<p>Dimensiones 45x45</p>', 1, 'Personalizado', 2, 5, 'lg-42-1.jpg', 4.50, 1, 0),
+(4, 'QWE321', 'This is my Product', 'This is the description', 2, 'Personalizado', 2, 2, '3.jpg', 59.99, 1, 0),
+(5, 'SKU1234', 'My First Form Added Product', '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare vulputate enim, sollicitudin interdum turpis imperdiet id. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam ac ante magna. Vestibulum vehicula ullamcorper odio condimentum tempor. Donec vulputate odio in nulla auctor iaculis. Ut id enim congue, congue velit vitae, accumsan dolor. In laoreet nec magna eget faucibus. Cras volutpat mi quam, a convallis quam dictum non. Proin vitae dui ut lectus semper hendrerit quis eget elit. Nam felis tellus, hendrerit eget sagittis sit amet, vestibulum quis orci. Sed condimentum, nunc quis varius elementum, nisl urna elementum magna, quis laoreet neque nisi quis risus. In tincidunt urna vel massa elementum laoreet. Sed tempor vehicula nibh, vitae volutpat tellus iaculis id. Proin a orci dolor. Phasellus ut metus eu sem posuere bibendum convallis vel odio.</p>', 5, 'Personalizado', 1, 3, '1.jpg', 20.00, 1, 0),
+(6, '', '', '', 0, 'Personalizado', 0, 0, '', 0.00, 0, 0),
+(7, '', '', '', 0, 'Personalizado', 0, 0, '', 0.00, 0, 0);
 
 -- --------------------------------------------------------
 
@@ -369,7 +378,7 @@ MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=5;
 -- AUTO_INCREMENT de la tabla `category`
 --
 ALTER TABLE `category`
-MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=6;
+MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=15;
 --
 -- AUTO_INCREMENT de la tabla `gallery`
 --
