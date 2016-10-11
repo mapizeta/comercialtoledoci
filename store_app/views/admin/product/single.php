@@ -31,7 +31,12 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="product_sku">Stock Al Momento de Guardar unidad:</label>
+                    <label for="product_dimensiones">Dimensiones:</label>
+                    <input type="text" class="form-control" id="product_dimensiones" name="product_dimensiones" value="<?php echo set_value('product_dimensiones', $product->dimensiones); ?>"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="product_sku">Sku:</label>
                     <input type="text" class="form-control" id="product_sku" name="product_sku" value="<?php echo set_value('product_sku', $product->sku); ?>"/>
                 </div>
 
@@ -48,7 +53,7 @@
             </div>
 
             <div class="col-lg-6">
-
+<!--
                 <div class="form-group">
                     <label for="product_manufacturer">Fabricante:</label>
                     <select name="product_manufacturer" id="product_manufacturer" class="form-control">
@@ -59,7 +64,7 @@
                         <?php } ?>
                     </select>
                 </div>
-
+-->
                 <div class="form-group">
                     <label for="product_category">Categoría:</label>
                     <select name="product_category" id="product_category" class="form-control">
@@ -73,7 +78,7 @@
 
                 <div class="form-group">
                     <label for="product_image">Imagen Principal:</label>
-                    <p>Use Upload Form In Next Section To Upload Additional Images.</p>
+                    <p>Para imagenes adicionales usa el formulario de la otra sección.</p>
                     <select name="product_image" id="product_image" class="form-control">
                         <?php foreach($images as $image){ ?>
                         <option value="<?php echo $image; ?>" <?php if($image == $product->image){ echo 'selected'; } ?>>
@@ -94,10 +99,10 @@
     </div>
     <div class="row">
         <div class="form-group">
-            <label for="product_description">Description:</label>
+            <label for="product_description">Descripción:</label>
             <textarea class="myHtmlEditor" id="product_description" name="product_description" style="width: 100%; height: 200px;"><?php echo set_value('product_description', $product->description);?></textarea>
         </div>
-        <input class="btn btn-primary" type="submit" value="Save Product Info" />
+        <input class="btn btn-primary" type="submit" value="Guardar" />
     </div>
 </form>
 

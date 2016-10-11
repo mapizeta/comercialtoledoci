@@ -101,7 +101,7 @@ class product extends My_Controller{
         $this->form_validation->set_rules('product_name', 'Name', 'required|max_length[60]');
         $this->form_validation->set_rules('product_sku', 'SKU', 'max_length[25]');
         $this->form_validation->set_rules('product_quantity', 'Quantity', 'required|integer|greater_than[-1]');
-        $this->form_validation->set_rules('product_manufacturer', 'Manufacturer', 'required|integer');
+        //$this->form_validation->set_rules('product_manufacturer', 'Manufacturer', 'required|integer');
         $this->form_validation->set_rules('product_category', 'Category', 'required|integer');
         $this->form_validation->set_rules('product_image', 'Image', 'required|min_length[3]|max_length[40]');
         $this->form_validation->set_rules('product_status', 'Status', 'required|integer|greater_than[-1]|less_than[2]');
@@ -109,19 +109,21 @@ class product extends My_Controller{
         $this->form_validation->set_rules('product_price', 'Price', 'required|decimal');
         
         if ($this->form_validation->run() != FALSE){
-            $id = $this->input->post('product_id');
-            $name = $this->input->post('product_name');
-            $sku = $this->input->post('product_sku');
-            $qty = $this->input->post('product_quantity');
-            $manufacturer_id = $this->input->post('product_manufacturer');
-            $category_id = $this->input->post('product_category');
-            $image = $this->input->post('product_image');
-            $sts = $this->input->post('product_status');
-            $description = $this->input->post('product_description');
-            $price = $this->input->post('product_price');
+            $id                 = $this->input->post('product_id');
+            $name               = $this->input->post('product_name');
+            $sku                = $this->input->post('product_sku');
+            $dimensiones        = $this->input->post('product_dimensiones');
+            $qty                = $this->input->post('product_quantity');
+            $manufacturer_id    = $this->input->post('product_manufacturer');
+            $category_id        = $this->input->post('product_category');
+            $image              = $this->input->post('product_image');
+            $sts                = $this->input->post('product_status');
+            $description        = $this->input->post('product_description');
+            $price              = $this->input->post('product_price');
             
             $updateData = array(
                 'sku'           => $sku,
+                'dimensiones'   => $dimensiones,
                 'name'          => $name,
                 'description'   => $description,
                 'category'      => $category_id,

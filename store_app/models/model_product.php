@@ -28,6 +28,10 @@ class model_product extends CI_Model{
         if(!isset($data['description'])){
             $data['description'] = '';
         }
+
+        if(!isset($data['dimensiones'])){
+            $data['dimensiones'] = '';
+        }
         
         if(!isset($data['quantity'])){
             $data['quantity'] = 0;
@@ -81,9 +85,31 @@ class model_product extends CI_Model{
         
         return $this->db->get('product');
     }
-    
-    
-    
+
+        /**
+     * 
+     * @param int $manufacturer
+     * @param int $category
+     * @param int $status 1 for active, 0 for inactive
+     * @return Products in form of Codeigniter Activ Result
+     */
+    function getProductos($manufacturer = null, $category = null, $status = 1){
+        
+        $this->db->select('product.name, product.sku, product.description, product.dimensiones, category.name categoria');
+        $this->db->where('status', $status);
+        
+        if($manufacturer != null){
+            $this->db->where('manufacturer', $manufacturer);
+        }
+        
+        if($category != null){
+            $this->db->join('category', 'category.id = product.category');
+            $this->db->where('category', $category);
+        }
+        
+        return $this->db->get('product');
+    }
+       
     
     function insertProductImage($productId, $url, $order, $description){
         $data = array(

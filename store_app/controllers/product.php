@@ -55,7 +55,7 @@ class product extends My_Controller{
             $this->all();
         }
     }
-    
+    /*
     function all($manufacturer = null, $category = null){
         $title = "Products";
         
@@ -84,7 +84,15 @@ class product extends My_Controller{
         parent::loadPage('product/list', 'Products', $data);
         
     }
-    
+    */
+    function all($category)
+    {
+        $data['products'] = $this->product->getProductos(0, $category);
+        $this->load->view('common/header_product');
+        $this->load->view('product/home', $data);
+        $this->load->view('common/footer_product');
+    }
+
     function manufacturer(){
         if(is_numeric($this->uri->segment(2))){
             $this->all($this->uri->segment(2));
